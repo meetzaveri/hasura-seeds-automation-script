@@ -1,7 +1,7 @@
 # hasura-seeds-automation-script
 This repository aims at generating seeds and applying seeds via automation scripts and some bash command magic. This will take help of hasura CLI command to generate seeds and apply seeds. Please go through instructions posted in readme.md file
 
-## Instructions
+## Step by step instructions
 
 ### First, extract tables from psql 
 Script I used to extract tables from psql
@@ -65,7 +65,7 @@ seeds/default/1669286239857_bank_accounts.sql
 
 #### Use generated seed filenames list and create bash script for applying those seeds via automation
 
-Copy those lines and paste it into another newly created text file.
+Copy those lines (from raw output) and paste it into another newly created text file.
 
 When you list all those seed filenames under one text file, then you can take out seed file name by trimming through columns of that text file by using `cut` command.
 ```bash
