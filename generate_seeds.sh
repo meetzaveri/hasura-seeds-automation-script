@@ -1,8 +1,10 @@
 #!/bin/bash
-RED='\033[0;31m' # these are color variables defined in starting lines
+# define color variables for formatting the output
+RED='\033[0;31m'
 CYAN='\033[0;36m'
 YELLOW='\033[1;33m'
 
+# get .txt file to loop over tables
 tables=$(cat table_list.txt) # please paste your table list .txt file name here
 
 echo -n "please enter database name: "
