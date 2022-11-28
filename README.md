@@ -45,7 +45,7 @@ Make sure if you are using `config.yaml` as a setup, then update endpoint value 
 
 Please go to `generate_seeds.sh` file here in this repo.
 
-### Post generation of seeds, apply seeds to specific 
+### Post generation of seeds, perform apply seeds 
 
 If you are using hasura CLI's `config.yaml`, then make changes accordingly (like changing endpoint to which you'll apply seeds against).
 
